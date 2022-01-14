@@ -1,11 +1,9 @@
-# KASIR-BARBERSHOP
-
 #include <iostream>
 using namespace std;
 
 int main ()
 {
-    int gaya, harga, more, total, pay=0, change;
+    int gaya, harga, more, total, pay=0, change, diskon;
     string style[6]={"1. FRENCH CROP      = 45K","2. CAESAR CUT       = 30K","3. UNDERCUT         = 25K","4. TAPER CUT        = 45K","5. MOHAWK CUT       = 40K","6. ELSE             = 50K"};
     string extra[4]={"1. HAIRWASH            = 15K","2. POMADE              = 7K","3. HAIRWASH + POMADE   = 20K","4. NORMAL              = -"};
     int i,j;
@@ -80,6 +78,9 @@ int main ()
             case 3 :
             cout << "\n EXTRA HAIRWASH + POMADE  \n";
             total=harga+20000;
+            diskon= total*0.1;
+            total= total-diskon;
+            cout << " Congratss you get discount! " << endl;
             cout << " PRICE : "<< total << endl;
             cout << " PAY   : ";
             cin >> pay;
@@ -158,6 +159,9 @@ int main ()
             case 3 :
             cout << "\n EXTRA HAIRWASH + POMADE  \n";
             total=harga+20000;
+            diskon= total*0.1;
+            total= total-diskon;
+            cout << " Congratss you get discount! " << endl;
             cout << " PRICE : "<< total << endl;
             cout << " PAY   : ";
             cin >> pay;
@@ -236,6 +240,9 @@ int main ()
             case 3 :
             cout << "\n EXTRA HAIRWASH + POMADE  \n";
             total=harga+20000;
+            diskon= total*0.1;
+            total= total-diskon;
+            cout << " Congratss you get discount! " << endl;
             cout << " PRICE : "<< total << endl;
             cout << " PAY   : ";
             cin >> pay;
@@ -314,6 +321,9 @@ int main ()
             case 3 :
             cout << "\n EXTRA HAIRWASH + POMADE  \n";
             total=harga+20000;
+            diskon= total*0.1;
+            total= total-diskon;
+            cout << " Congratss you get discount! " << endl;
             cout << " PRICE : "<< total << endl;
             cout << " PAY   : ";
             cin >> pay;
@@ -392,6 +402,9 @@ int main ()
             case 3 :
             cout << "\n EXTRA HAIRWASH + POMADE  \n";
             total=harga+20000;
+            diskon= total*0.1;
+            total= total-diskon;
+            cout << " Congratss you get discount! " << endl;
             cout << " PRICE : "<< total << endl;
             cout << " PAY   : ";
             cin >> pay;
@@ -471,6 +484,9 @@ int main ()
             case 3 :
             cout << "\n EXTRA HAIRWASH + POMADE  \n";
             total=harga+20000;
+            diskon= total*0.1;
+            total= total-diskon;
+            cout << " Congratss you get discount! " << endl;
             cout << " PRICE : "<< total << endl;
             cout << " PAY   : ";
             cin >> pay;
